@@ -1,4 +1,4 @@
-# Udemy Course Time Left Tracker
+# Udemy Course Time Left Tracker Firefox Extension
 
 A Firefox extension that helps you track and calculate the remaining time for your Udemy courses. No network calls, no data collection, no tracking. Get an accurate estimate of how long it will take to complete your course based on the total course duration.
 
