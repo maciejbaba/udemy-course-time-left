@@ -1,5 +1,8 @@
-window.onload = () => {
+const SLEEP_TIME = 10000;
+
+setTimeout(() => {
   const sections = getSections();
+  console.log("invoked");
 
   const timeTexts = getTimeTextsFromSections(sections);
 
@@ -15,7 +18,7 @@ window.onload = () => {
     injectTimeIntoSection(hoursLeft, minutesLeft, section);
     totalMinutes -= minutes;
   });
-};
+}, SLEEP_TIME);
 
 function getMinutesFromText(text) {
   const firstItem = text.split(' ')[0];
