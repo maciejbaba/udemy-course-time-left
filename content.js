@@ -2,7 +2,6 @@ const SLEEP_TIME = 10000;
 
 setTimeout(() => {
   const sections = getSections();
-  console.log("invoked");
 
   const timeTexts = getTimeTextsFromSections(sections);
 
